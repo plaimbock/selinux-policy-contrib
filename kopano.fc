@@ -10,7 +10,6 @@
 /usr/sbin/kopano-spooler		--	gen_context(system_u:object_r:kopano_spooler_exec_t,s0)
 
 /var/lib/kopano(/.*)?			gen_context(system_u:object_r:kopano_var_lib_t,s0)
-/var/lib/kopano-webaccess(/.*)?	gen_context(system_u:object_r:kopano_var_lib_t,s0)
 /var/lib/kopano-webapp(/.*)? gen_context(system_u:object_r:kopano_var_lib_t,s0)
 
 /var/log/kopano/dagent\.log.*	    --  gen_context(system_u:object_r:kopano_deliver_log_t,s0)
